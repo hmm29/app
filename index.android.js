@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-class Eyespot extends Component {
+class App extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -49,4 +49,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('Eyespot', () => Eyespot);
+AppRegistry.registerComponent('App', () => App);

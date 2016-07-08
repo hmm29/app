@@ -4,10 +4,17 @@
 
 
 
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey"></string>
+
+
+
+
+
+
 
 
 
 
     <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey"></string>
-    <string name="app_name">Eyespot</string>
+    <string name="app_name">App</string>
 </resources>

@@ -22,10 +22,10 @@ import LoginPage from './js/components/pages/login/LoginPage';
 import DiscoverPage from './js/components/pages/discover/DiscoverPage';
 
 /*
- * defines the Eyespot class
+ * defines the App class
  */
 
-class Eyespot extends Component {
+class App extends Component {
 
 
   /*
@@ -48,8 +48,8 @@ class Eyespot extends Component {
         <NavigatorIOS
           navigationBarHidden={true}    /* hide navigation bar */
           initialRoute={{               /* initial route in navigator */
-            title: 'DiscoverPage',
-            component: DiscoverPage,
+            title: 'LoginPage',
+            component: LoginPage,
           }}
           itemWrapperStyle={styles.itemWrapper} /* styles for nav background */
           style={{flex: 1}} />
@@ -77,4 +77,4 @@ const styles = StyleSheet.create({
  * registers this component as the top-level app
  */
 
-AppRegistry.registerComponent('Eyespot', () => Eyespot);
+AppRegistry.registerComponent('App', () => App);
