@@ -29,4 +29,3 @@ See [Running on device](https://facebook.github.io/react-native/docs/running-on-
 						
 #### Feature
 Feature description
-					
