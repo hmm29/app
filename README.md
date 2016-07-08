@@ -2,11 +2,6 @@
 
 APP lets users ________________________________.
 
-## Most recent snapshot: 
-### Discover page in the works
-
-![Screenshot](https://raw.githubusercontent.com/username/project/branch/image-filename.png)
-
 ## Running this app
 
 Before running the app, make sure you ran:
